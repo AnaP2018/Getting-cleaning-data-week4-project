@@ -15,11 +15,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Tidy_data.txt file 
 
-Factor variables (Columns 1 and 2)
-1     subject: levels: 1 2 3 4 5 6
-2     activity: levels: WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING
+<b>Factor variables</b> (Columns 1 and 2)
 
-Numeric Variables - representing the average of each variable for each activity and each subject (by column number)
+* 1     subject: levels: 1 2 3 4 5 6
+* 2     activity: levels: WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING
+
+<b>Numeric Variables</b> - representing the average of each variable for each activity and each subject (by column number)
+
 3	    timeDomainBodyAccelerometerMeanX                             
 4	    timeDomainBodyAccelerometerMeanY                           
 5	    timeDomainBodyAccelerometerMeanZ                        
@@ -104,21 +106,23 @@ Numeric Variables - representing the average of each variable for each activity 
 ## Data Cleaning
 
 The following files were loaded:
-Training sets:
-subject_train.txt
-Y_train.txt
-X_train.txt
 
-Test sets:
-X_test.txt
-Y_test.txt
-subject_test.txt
+<b>Training sets:</b>
+* X_train.txt
+* Y_train.txt
+* subject_train.txt
+  
+<b>Test sets:</b>
+* X_test.txt
+* Y_test.txt
+* subject_test.txt
 
-activity_labels.txt
-features.txt
+<b>Other files:</b>
+* activity_labels.txt
+* features.txt
 
 
-The following steps were taken to clean the data:
+The following <b>steps</b> were taken to clean the data:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set.
