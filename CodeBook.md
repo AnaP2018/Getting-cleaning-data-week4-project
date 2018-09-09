@@ -91,9 +91,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 69	  frequencyDomainBodyGyroscopeMeanFrequencyZ                    
 70	  frequencyDomainBodyAccelerometerMagnitudeMean            
 71	  frequencyDomainBodyAccelerometerMagnitudeStandardDeviation 
+
 72	  frequencyDomainBodyAccelerometerMagnitudeMeanFrequency      
 73	  frequencyDomainBodyAccelerometerJerkMagnitudeMean            
 74	  frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+
 75	  frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency   
 76	  frequencyDomainBodyGyroscopeMagnitudeMean                   
 77	  frequencyDomainBodyGyroscopeMagnitudeStandardDeviation       
